@@ -4,7 +4,7 @@ Code Path Pre-Work Project
 Pre Work for CodePath. Allows the user to change text and background colors. Also allows user to input their own text and changes the text on Screen.
 ### App Walk-though
 
-<img src="https://imgur.com/a/rIysqyA" width=200><br>
+<img src=" https://imgur.com/a/rIysqyA " width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {Chris}!
