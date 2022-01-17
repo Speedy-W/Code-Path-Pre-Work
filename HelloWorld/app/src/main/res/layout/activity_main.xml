@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#047af6"
+    android:id="@+id/parent"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="Hello from Chris!"
-        android:textSize="44sp" />
+        android:textColor="@color/black"
+        android:textSize="35sp" />
 
 
     <TextView
@@ -29,4 +31,52 @@
         android:text="Click to change text color!"
         android:textSize="30sp" />
 
+    <TextView
+        android:id="@+id/changeBackgroundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#F5CC00"
+        android:padding="10dp"
+        android:text="Click to change background color!"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/changeTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/changeBackgroundButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#F5CC00"
+        android:padding="10dp"
+        android:text="Click to change text!"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_above="@+id/changeTextButton"
+        android:layout_marginBottom="5dp"
+        android:text="Create Your Own Text" />
+
+    <TextView
+        android:id="@+id/changeCustomTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#F5CC00"
+        android:padding="10dp"
+        android:text="Click to change to your text!"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
 </RelativeLayout>
